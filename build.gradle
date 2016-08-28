@@ -1,0 +1,59 @@
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:1.2"
+  }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: "org.sonarqube"
+
+sourceCompatibility = 1.8
+version = '1.0.SNAPSHORT'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'HelloWorld', 'Implementation-Version': version
+    }
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'http://localhost:8081/artifactory/libs-release-local/'
+        }
+    }
+  
+}
+
+repositories {
+     maven {
+        url 'http://localhost:8081/artifactory/libs-release/'
+     }
+}
+
+dependencies {
+	compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2' 
+    compile 'org.springframework:spring-context:4.1.5.RELEASE'
+    compile 'org.springframework:spring-test:4.1.5.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.1.5.RELEASE'
+    compile 'org.springframework:spring-aop:4.1.5.RELEASE'
+	compile group: 'org.springframework', name: 'spring-jms', version: '4.2.5.RELEASE'
+    compile 'org.springframework.boot:spring-boot-autoconfigure:1.2.2.RELEASE'
+    compile 'org.aspectj:aspectjrt:1.7.4'
+    compile 'org.aspectj:aspectjweaver:1.7.4'
+ 	compile 'log4j:log4j:1.2.17'
+ 	compile 'org.slf4j:slf4j-log4j12:1.7.7'
+    compile group: 'org.apache.activemq', name: 'activemq-core', version: '5.7.0'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.1.0.Final'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+    compile(group: 'com.oracle', name: 'ojdbc6', version: '11.2.0')	
+}
+
+
+

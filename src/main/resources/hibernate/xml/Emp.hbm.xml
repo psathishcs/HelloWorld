@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="org.hello.hibernate.xml.model.Emp" table="EMP">
+        <id name="empNo" type="java.lang.Integer">
+            <column name="empNo" precision="5" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="eName" type="string">
+            <column name="eName" length="20" not-null="true" />
+        </property>
+         <many-to-one name="mgr" class="org.hello.hibernate.xml.model.Emp" fetch="select">
+            <column name="mgr" not-null="true" />
+        </many-to-one>
+        
+        <property name="job" type="string">
+            <column name="job" length="20" />
+        </property>
+        <property name="hireDate" type="date">
+            <column name="hireDate" />
+        </property>
+        <property name="sal" type="java.lang.Double">
+            <column name="sal"/>
+        </property>
+        <property name="comm" type="java.lang.Double">
+            <column name="comm"/>
+        </property>
+         <many-to-one name="dept" class="org.hello.hibernate.xml.model.Dept" fetch="select">
+            <column name="deptNo" not-null="false" />
+        </many-to-one>
+        
+    </class>
+</hibernate-mapping>

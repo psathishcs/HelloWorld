@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="org.hello.hibernate.xml.model.SalGrade" table="SALGRADE">
+        <id name="grade" type="java.lang.Integer">
+            <column name="GRADE" precision="5" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="losal" type="java.lang.Integer">
+            <column name="LOSAL"/>
+        </property>
+        <property name="hisal" type="java.lang.Integer">
+            <column name="HISAL"/>
+        </property>
+        
+    </class>
+</hibernate-mapping>
