@@ -24,7 +24,7 @@ jar {
 buildscript {
     repositories {
         maven {
-            url 'http://localhost:8081/artifactory/libs-release-local/'
+            url 'http://localhost:9081/artifactory/libs-release-local/'
         }
     }
   
@@ -32,7 +32,7 @@ buildscript {
 
 repositories {
      maven {
-        url 'http://localhost:8081/artifactory/libs-release/'
+        url 'http://localhost:9081/artifactory/libs-release/'
      }
 }
 
@@ -52,7 +52,9 @@ dependencies {
     compile group: 'org.apache.activemq', name: 'activemq-core', version: '5.7.0'
     compile group: 'org.hibernate', name: 'hibernate-core', version: '5.1.0.Final'
     testCompile group: 'junit', name: 'junit', version: '4.+'
-    compile(group: 'com.oracle', name: 'ojdbc6', version: '11.2.0')	
+    compile(group: 'com.oracle', name: 'ojdbc6', version: '11.2.0')
+	compile group: 'org.apache.hbase', name: 'hbase-client', version: '1.1.2'
+	compile group: 'com.datastax.cassandra', name: 'cassandra-driver-core', version: '3.0.1'
 }
 
 
