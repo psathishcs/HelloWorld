@@ -50,6 +50,7 @@ dependencies {
  	compile 'log4j:log4j:1.2.17'
  	compile 'org.slf4j:slf4j-log4j12:1.7.7'
     compile group: 'org.apache.activemq', name: 'activemq-core', version: '5.7.0'
+    compile group: 'com.rabbitmq', name: 'amqp-client', version: '3.6.5'
     compile group: 'org.hibernate', name: 'hibernate-core', version: '5.1.0.Final'
     testCompile group: 'junit', name: 'junit', version: '4.+'
     compile(group: 'com.oracle', name: 'ojdbc6', version: '11.2.0')
