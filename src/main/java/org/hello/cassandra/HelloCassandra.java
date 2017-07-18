@@ -33,10 +33,10 @@ public class HelloCassandra {
 	public static void main(String[] args){
 		Cluster cluster = null;
 		Session session = null;
-		String node = "192.168.44.128";
+		String node = "hadoop.master.com";
 		int port = 9042;
 		String cql = "SELECT * FROM emp";
-		String keyspace ="helloworld";
+		String keyspace ="cycling";
 		
 		cluster = Cluster.builder().addContactPoint(node).withPort(port).build();
 		
