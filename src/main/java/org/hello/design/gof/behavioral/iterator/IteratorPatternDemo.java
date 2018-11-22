@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import oracle.net.aso.i;
-
 public class IteratorPatternDemo {
 	public static void main(String[] args){
 		List<Employee> employees = new ArrayList<>();

@@ -2,8 +2,6 @@ package org.hello.design.gof.creational.prototype;
 
 import java.awt.Point;
 
-import oracle.net.aso.p;
-
 public class PaintingPrototype {
 	public static void main(String[] args){
 		Point x = new Point();

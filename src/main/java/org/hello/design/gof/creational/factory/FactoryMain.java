@@ -2,8 +2,6 @@ package org.hello.design.gof.creational.factory;
 
 import java.awt.Point;
 
-import oracle.net.aso.p;
-import oracle.net.aso.s;
 
 public class FactoryMain {
 	public static void main(String[] args){

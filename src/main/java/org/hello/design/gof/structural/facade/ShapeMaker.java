@@ -1,7 +1,5 @@
 package org.hello.design.gof.structural.facade;
 
-import oracle.net.aso.r;
-
 public class ShapeMaker {
 	private Shape circle;
 	private Shape rectangle;
