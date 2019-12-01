@@ -14,7 +14,6 @@ public class ComparableTest {
 		employee1.setManager(null);
 		employee1.setSal(6000.00);
 		
-		
 		EmployeeComparable employee2 = new EmployeeComparable();
 		employee2.setEmpNo(1002);
 		employee2.seteName("Parthasarathy");

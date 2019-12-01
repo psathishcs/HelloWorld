@@ -1,6 +1,6 @@
 package org.hello.design.gof.creational.prototype;
 
-import java.awt.Point;
+import java.awt.*;
 
 public class PaintingPrototype {
 	public static void main(String[] args){

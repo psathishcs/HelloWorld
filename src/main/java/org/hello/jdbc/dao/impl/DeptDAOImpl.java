@@ -1,18 +1,17 @@
 package org.hello.jdbc.dao.impl;
 
+import org.hello.jdbc.dao.DeptDAO;
+import org.hello.jdbc.model.Dept;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.sql.DataSource;
-
-import org.hello.jdbc.dao.DeptDAO;
-import org.hello.jdbc.model.Dept;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 @Component
 public class DeptDAOImpl implements DeptDAO {

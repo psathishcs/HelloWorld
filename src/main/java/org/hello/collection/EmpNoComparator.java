@@ -1,8 +1,8 @@
 package org.hello.collection;
 
-import java.util.Comparator;
-
 import org.hello.model.Emp;
+
+import java.util.Comparator;
 
 public class EmpNoComparator implements Comparator<Emp>{
 

@@ -1,8 +1,8 @@
 package org.hello.dao;
 
-import java.util.List;
-
 import org.hello.model.Dept;
+
+import java.util.List;
 
 
 public interface DeptDAO {

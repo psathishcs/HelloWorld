@@ -1,10 +1,10 @@
 package org.hello.collection;
 
+import org.hello.model.Dept;
+
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
-
-import org.hello.model.Dept;
 /*
  * Will throws error when not using the object that is not implementing Comparable.
  * Exception in thread "main" java.lang.ClassCastException: org.hello.model.Dept cannot be cast to java.lang.Comparable

@@ -1,6 +1,6 @@
 package org.hello.design.gof.creational.prototype;
 
-import java.awt.Point;
+import java.awt.*;
 
 public class Line implements Shape {
 	Point x, y;

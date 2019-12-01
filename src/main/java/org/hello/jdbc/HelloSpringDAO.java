@@ -1,12 +1,12 @@
 package org.hello.jdbc;
 
-import java.sql.SQLException;
-import java.util.List;
-
 import org.hello.jdbc.dao.EmpDAO;
 import org.hello.jdbc.model.Emp;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.sql.SQLException;
+import java.util.List;
 
 public class HelloSpringDAO {
 	public static void main(String[] args) throws SQLException{

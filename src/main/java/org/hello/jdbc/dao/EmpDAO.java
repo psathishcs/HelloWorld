@@ -1,9 +1,9 @@
 package org.hello.jdbc.dao;
 
+import org.hello.jdbc.model.Emp;
+
 import java.sql.SQLException;
 import java.util.List;
-
-import org.hello.jdbc.model.Emp;
 
 public interface EmpDAO {
 	public void save(Emp emp) throws SQLException ;

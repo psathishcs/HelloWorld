@@ -1,11 +1,6 @@
 package org.hello.collection;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SimpleSetHashSet {
 	public static void main(String[] args){

@@ -1,9 +1,9 @@
 package org.hello.collection;
 
+import org.hello.model.Emp;
+
 import java.util.Map;
 import java.util.TreeMap;
-
-import org.hello.model.Emp;
 
 public class SimpleMapTreeMapComparator {
 	public static void main(String[] args){

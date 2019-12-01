@@ -1,9 +1,9 @@
 package org.hello.jdbc.dao.impl;
 
-import java.util.List;
-
 import org.hello.jdbc.dao.SalGradeDAO;
 import org.hello.jdbc.model.SalGrade;
+
+import java.util.List;
 
 public class SalGradeDAOImpl implements SalGradeDAO{
 

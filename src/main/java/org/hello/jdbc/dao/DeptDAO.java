@@ -1,9 +1,9 @@
 package org.hello.jdbc.dao;
 
+import org.hello.jdbc.model.Dept;
+
 import java.sql.SQLException;
 import java.util.List;
-
-import org.hello.jdbc.model.Dept;
 
 public interface DeptDAO {
 	public void save(Dept dep) throws SQLException;

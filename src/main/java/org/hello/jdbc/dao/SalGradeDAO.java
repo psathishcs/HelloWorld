@@ -1,8 +1,8 @@
 package org.hello.jdbc.dao;
 
-import java.util.List;
-
 import org.hello.jdbc.model.SalGrade;
+
+import java.util.List;
 
 public interface SalGradeDAO {
 	public void save(SalGrade salGrade);

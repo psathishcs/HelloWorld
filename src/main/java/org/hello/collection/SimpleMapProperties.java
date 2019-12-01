@@ -1,7 +1,6 @@
 package org.hello.collection;
 
 import java.util.Hashtable;
-import java.util.Map;
 import java.util.Properties;
 /**
  * 

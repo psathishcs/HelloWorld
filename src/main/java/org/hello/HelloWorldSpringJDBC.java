@@ -1,11 +1,11 @@
 package org.hello;
 
-import java.util.List;
-
 import org.hello.dao.EmpDAO;
 import org.hello.dao.EmpDAOImpl;
 import org.hello.model.Emp;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.List;
 
 public class HelloWorldSpringJDBC { //NOSONAR
 	

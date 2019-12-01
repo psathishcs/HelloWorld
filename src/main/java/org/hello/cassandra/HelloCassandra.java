@@ -4,16 +4,11 @@
 package org.hello.cassandra;
 
 
+import com.datastax.driver.core.*;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
-import com.datastax.driver.core.Cluster;
-import com.datastax.driver.core.Host;
-import com.datastax.driver.core.Metadata;
-import com.datastax.driver.core.ResultSet;
-import com.datastax.driver.core.Row;
-import com.datastax.driver.core.Session;
 
 
 /**

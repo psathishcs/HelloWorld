@@ -1,6 +1,5 @@
 package org.hello.collection;
 
-import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 

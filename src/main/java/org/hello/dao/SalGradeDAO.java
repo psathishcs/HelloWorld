@@ -1,7 +1,8 @@
 package org.hello.dao;
 
-import java.util.List;
 import org.hello.model.SalGrade;
+
+import java.util.List;
 
 public interface SalGradeDAO {
 	public void save(SalGrade salGrade);

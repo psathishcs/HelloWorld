@@ -1,11 +1,10 @@
 package org.hello.hibernate.xml;
 
-import java.sql.Date;
-import java.util.List;
-
 import org.hello.hibernate.xml.model.Emp;
 import org.hibernate.Query;
 import org.hibernate.Session;
+
+import java.util.List;
 
 public class HelloHibernateGetXML {
 	public static void main(String[] args){

@@ -3,7 +3,6 @@ package org.hello.aspectJ;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.stereotype.Component;
 @Component
 @Aspect

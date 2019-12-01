@@ -1,8 +1,8 @@
 package org.hello.dao;
 
-import java.util.List;
-
 import org.hello.model.Emp;
+
+import java.util.List;
 
 public interface EmpDAO {
 	

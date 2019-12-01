@@ -1,10 +1,6 @@
 package org.hello;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class HelloWorldDBConnection {
 	private static String url = "jdbc:oracle:thin:@localhost:1521:orcl";

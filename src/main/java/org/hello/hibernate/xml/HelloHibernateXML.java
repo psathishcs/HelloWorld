@@ -1,9 +1,9 @@
 package org.hello.hibernate.xml;
 
-import java.sql.Date;
-
 import org.hello.hibernate.xml.model.Emp;
 import org.hibernate.Session;
+
+import java.sql.Date;
 
 public class HelloHibernateXML {
 	public static void main(String[] args){

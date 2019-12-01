@@ -1,13 +1,12 @@
 package org.hello.jms.rabbitmq;
 
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
-
-import org.springframework.util.SerializationUtils;
-
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import org.springframework.util.SerializationUtils;
+
+import java.io.IOException;
+import java.util.concurrent.TimeoutException;
 
 public class HelloRabbitMQConsume {
 	public static void main(String[] args) throws IOException, TimeoutException{
