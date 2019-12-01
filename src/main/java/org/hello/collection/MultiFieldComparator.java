@@ -4,7 +4,7 @@ import org.hello.model.Emp;
 
 import java.util.Comparator;
 
-public class MultipleFieldsComparator implements Comparator<Emp>{
+public class MultiFieldComparator implements Comparator<Emp>{
 	
 	@Override
 	public int compare(Emp o1, Emp o2) {

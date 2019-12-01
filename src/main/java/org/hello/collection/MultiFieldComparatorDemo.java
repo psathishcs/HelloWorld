@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.Collections;
 import java.util.List;
 
-public class MultipleFieldsComparatorDemo {
+public class MultiFieldComparatorDemo {
 	public static void main(String[] args){
 		 ApplicationContext context = 
 	             new ClassPathXmlApplicationContext("applicationContext.xml");
@@ -21,7 +21,7 @@ public class MultipleFieldsComparatorDemo {
 				emp.seteName("ALLEN");
 		}
 		printEmpList(emps);
-		Collections.sort(emps, new MultipleFieldsComparator());
+		Collections.sort(emps, new MultiFieldComparator());
 		System.out.print("After Sorting...");
 		printEmpList(emps);
 	}

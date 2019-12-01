@@ -5,7 +5,7 @@ import org.hello.model.Emp;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class SimpleMapTreeMapComparator {
+public class SimpleMapTreeMapComp {
 	public static void main(String[] args){
 		Map map = new TreeMap<Emp, String>(new EmpNoComparator());
 		Emp emp= new Emp();
