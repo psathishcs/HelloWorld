@@ -28,7 +28,7 @@ public class HelloCassandra {
 	public static void main(String[] args){
 		Cluster cluster = null;
 		Session session = null;
-		String node = "hadoop.master.com";
+		String node = "localhost";
 		int port = 9042;
 		String cql = "SELECT * FROM emp";
 		String keyspace ="cycling";
